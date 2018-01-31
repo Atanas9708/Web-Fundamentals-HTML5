@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+    background-color: #355664;
+    font-family: Arial, sans-serif;
+    width: 960px;
+    color: #fcfcfc;;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: forte, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 10px 0 0;
+}
+
+h2 {
+    font-size: 40px;
+    border-bottom: 3px solid #416371;
+    letter-spacing: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: right;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+li:first-child a {
+    color: #7CB3E9;
+    text-transform: lowercase;
+}
+
+li:last-child a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a {
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+    color: #8EC45B;
+}
+
+article .article-content {
+    border-radius: 1px solid black;; 
+}
+
+p {
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+figure + p {
+    color: #94c258;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    border: none;
+}
+
+.article-content {
+    margin: 15px 0;
+}
+
+nav {
+    background-color:  #355664;
+    padding: 0, 5px;
+}
+
+article {
+    height: 390px;
+    background-color: #213E4A;
+    padding: 20px;
+    margin: 0 0 10px;
+    border-radius: 10px;
+}
+
+figure {
+    border: 3px solid #142830;
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    border-top: 3px solid #142830;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
