@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Lato;
+    src: url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 300 16px/22px "Lato", sans-serif;
+}
+
+nav {
+    text-align: left;
+}
+
+header {
+    background-color: #293F50;
+    height: 500px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #447E80;
+}
+
+header h2 {
+    text-align: right;
+    text-transform: uppercase;
+    color: #447E80;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 50;
+    letter-spacing: 2px;
+}
+
+header h3 {
+    text-align: center;
+    color: #447E80;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header p {
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    font-size: 19px;
+}
+
+.btn {
+    background: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #ffffff;
+    padding: 17px 30px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #293F50;
+    cursor: pointer;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    margin: 15px;
+    color: #A9B2B9;
+}
+
+section h5 {
+    margin-bottom: 15px;
+}
+
+section h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #293F50;
+    padding: 60px 70px 30px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+footer nav ul li{
+    display: inline-block;
+}
+
+footer nav {
+    float: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px;
+}
