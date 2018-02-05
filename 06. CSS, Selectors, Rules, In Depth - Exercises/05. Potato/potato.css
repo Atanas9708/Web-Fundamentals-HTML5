@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: radial-gradient(ellipse at center,
+        rgba(192,169,145,1) 0%,
+        rgba(192,169,145,1) 59%,
+        rgba(168,143,121,1) 100%);    
+
+  height: 600px;      
+}
+
+nav {
+  float: left;
+  width: 1300px;
+  padding: 5px;
+  color: #fff;
+}
+
+.brand {
+  float: left;
+  padding-left: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-primary {
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-primary :last-of-type a {
+  border: 2px solid #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.nav-primary li a:hover {
+  background-color: rgba(134, 114, 96, 0.7);
+  border: 1px solid rgba(134, 114, 96, 0.7);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.header-title {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+.header-potato {
+  width: 400px;
+  margin-left: 470px;
+  margin-top: 80px
+}
+
+.header-subtitle {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.features {
+  background-image: url('images/potato-background.png');
+  background-size: cover;
+  text-align: center;
+  color: #373535;
+  padding-bottom: 100px;
+}
+
+.features-title {
+  font-weight: normal;
+}
+
+.features-subtitle {
+  width: 615px;
+  margin: auto;
+  font-weight: normal;
+}
+
+.buy-now {
+  background-color: #fafafa;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.order-title {
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.potato-types {
+  display: flex;
+  margin-left: 170px;
+}
+
+.potato {
+  display: inline-block;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+.potato-features {
+  list-style-type: none;
+  margin-right: 35px;
+}
+
+.potato-description {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: #B7B6B5;;
+}
+
+.potato-img {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.potato-title {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.btn-order {
+  text-transform: uppercase;
+  color: #9ACD32;
+  border: 2px solid #9ACD32;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn-order:hover {
+  color: #fff;
+  background-color:#9ACD32; 
+  cursor: pointer;
+}
+
+footer {
+  background-color: #867260;
+}
+
+.footer-text {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 15px 0 10px;
+}
