@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+}
+
+footer section {
+  display: inline-block;
+}
+
+section {
+  vertical-align: top;
+  text-align: left;
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fafafa89;
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.icons div {
+  background-image: url('images/social.jpg');
+  width: 75px;
+  height: 56px;
+  display: inline-block;
+}
+
+.facebook {
+  background-position: 0 0;
+}
+
+.linkedin {
+  background-position: -192px 0;
+}
+
+.youtube {
+  background-position: 327px 0;
+}
+
+.twitter {
+  background-position: -64px 0;
+}
+
+.facebook:hover {
+  background-position: 0 -188px;
+  cursor: pointer;
+}
+
+.youtube:hover {
+  background-position: 327px 60px;
+  cursor: pointer;
+}
+
+.linkedin:hover {
+  background-position: -192px 60px;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  background-position: -64px 60px;
+  cursor: pointer;
+}
