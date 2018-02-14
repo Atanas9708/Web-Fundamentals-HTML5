@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #f3f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: left;
+  width: 900px;
+  margin-left: 290px;
+}
+
+nav h1 {
+  font-family: "Comfortaa", sans-serif;
+}
+
+section {
+  margin-left: 290px;
+}
+
+article {
+  display: inline-block;
+  background-color: #fff;
+  height: 300px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+aside {
+  font-family: "Comfortaa", sans-serif;
+  float: left;
+  width: 250px;
+  height: 1000px;
+  text-align: center;
+  background-color: #fff;
+}
+
+aside img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+aside h1 {
+  font-size: 40px;
+}
+
+aside p, a {
+  text-transform: uppercase;
+  color: #b1bfc6;
+  font-size: 14px;
+}
+
+aside p {
+  width: 100px;
+  margin-left: 75px;
+}
+
+
+li a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+a:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  text-align: left;
+  margin-top: 30px;
+}
+
+i {
+  margin-right: 7px;
+}
+
+nav h1, h5, p {
+  width: 300px;
+}
+
+article div {
+  position: relative;
+  text-transform: uppercase;
+  width: 87px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  padding: 4px;
+  top: 73px;
+  right: 17px;
+}
+
+article p {
+  padding-left: 20px;
+  color: #91a5af;
+}
+
+.rented {
+  background-color: #91a5af; 
+  opacity: 0.7; 
+}
+
+.listed {
+  background-color: #68bc69;
+}
+
+.draft {
+  background-color: #91a5af;
+}
+
+button {
+  position: relative;
+  left: 800px;
+  bottom: 136px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff7739;
+  padding: 10px;
+  border-radius: 20px;
+  border: transparent;
+  width: 156px;
+}
+
+button i {
+  margin-left: 5px;
+}
+
+button:hover {
+  color: #ff7739;
+  background-color: #fff;
+  border: 3px solid #ff7739;
+  cursor: pointer;
+}
