@@ -1,0 +1,33 @@
+@import url('https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn');
+
+body {
+  font-family: Vollkorn, sans-serif;
+  width: 1200px;
+  margin: auto;
+}
+
+article {
+  height: 230px;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  padding: 10px;
+}
+
+figure {
+  float: left;
+  margin-bottom: 0;
+  margin-right: 26px;
+  border: 1px solid;
+}
+
+article h1, a {
+  color: #72aeb4;
+}
+
+h5 {
+  font-style: oblique;
+  font-weight: normal;
+}

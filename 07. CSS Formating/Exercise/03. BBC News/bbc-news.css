@@ -1,0 +1,26 @@
+body {
+  font-family: Calibri ligt, sans-serif;
+}
+
+section {
+  width: 1050px;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px solid #a5b2b3;
+}
+
+article {
+  display: inline-block;
+  width: 236px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+article h1 {
+  text-align: center;
+}
+
+article:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
