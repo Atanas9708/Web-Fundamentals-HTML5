@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #927057;
+}
+
+figure {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+figure img {
+  border: 5px solid #d5c395;  
+}
+
+section {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 450px;
+  height: 275px;
+  background-color: #d5c395;
+  padding-top: 30px;
+}
+
+section img {
+  position: absolute;
+  top: -34px;
+  left: -195;
+  left: 195px;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 60px;
+  color: #fff;
+}
+
+div {
+  width: 400px;
+}
+
+form div {
+  padding: 10px;
+}
+
+.name, .password {
+  margin-left: 13px;
+}
+
+input {
+  border: transparent;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  background-color: #efe1c4;
+  height: 30px;
+  width: 70%;
+  padding-left: 45px;
+}
+
+
+input[type="text"] {
+  background: url('images/user.png') no-repeat #fff;
+  background-position: 13px 4px;
+}
+
+input[type="password"] {
+  background: url('images/pass.png') no-repeat #fff;
+      background-position: 13px 4px;
+}
+
+input[type="submit"] {
+  width: 82%;
+  height: 35px;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #927057;
+  color: #d5c395;
+}
+
+footer {
+  text-align: center;
+  color: #d5c395;
+}

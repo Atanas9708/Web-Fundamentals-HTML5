@@ -1,0 +1,15 @@
+fieldset {
+  border-color: #2D2D2D;
+  width: 200px;
+  height: 230px;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 168px;
+  height: 80px;
+  resize: none;
+}
