@@ -1,0 +1,301 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.code-mesh {
+  float: left;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  background: url("img/header-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  filter: brightness(20%);
+  z-index: -1;
+}
+
+header ul {
+  text-align: right;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+header a { 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header a:hover {
+  cursor: pointer;
+  color: #fa692e;
+}
+
+.heading {
+  color: #fff;
+  width: 600px;
+  margin: auto;
+  margin-top: 170px;
+}
+
+.heading h1 {
+  width: 518px;
+  font-size: 27px;
+}
+
+.heading i {
+  position: relative;
+  bottom: 82px;
+  left: 46px;
+  float: right;
+}
+
+header section {
+  color: #fff;
+  display: inline-block;
+  margin-top: 130px;
+}
+
+header article {
+  display: inline-block;
+  width: 284px;
+  height: 175px;
+  font-size: 14px;
+  padding-left: 45px;
+  vertical-align: top;
+}
+
+header article:hover {
+  border-bottom: 18px solid #fa692e;
+  cursor: pointer;
+}
+
+header article i {
+  margin-bottom: 30px;
+}
+
+.articles {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 150px;
+  width: 83%;
+  display: inline-block;
+}
+
+.articles article {
+  width: 300px;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
+}
+
+.articles article:first-of-type {
+  width: 200px;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.articles article + article p {
+  border-bottom: 2px dotted #333333;
+  padding-bottom: 30px;
+}
+
+.orange {
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  right: -92px;
+  width: 250px;
+  height: 450px;
+  background-color: #fa692e;
+  opacity: 0.7;
+}
+
+.schedule {
+  background-color: #3c3f49;
+  height: 600px;
+  color: #fff;
+}
+
+.schedule h2 {
+  width: 450px;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.schedule ul {
+  margin-top: 100px;
+}
+
+.schedule li {
+  width: 478px;
+  display: inline-block;
+  list-style: none;
+  margin-left: 115px;
+  margin-bottom: 70px;
+  vertical-align: top;
+}
+
+.schedule li i {
+  margin-right: 20px;
+  border-radius: 96%;
+  background-color: #fa692e;
+  text-align: center;
+  padding: 16px;
+}
+
+.schedule span {
+  padding-left: 20px;
+  opacity: 0.5;
+  text-transform: capitalize;
+}
+
+.speakers {
+  display: inline-block;
+}
+
+.speakers div {
+  width: 1300px;
+  margin-bottom: 70px;
+}
+
+.speakers div h1 {
+  width: 406px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.speakers div span {
+  float: right;
+  position: relative;
+  bottom: 70px;
+  right: 20px;
+  width: 523px;
+}
+
+.speakers article {
+  width: 300px;
+  display: inline-block;
+  box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.speaker-list {
+  width: 1000px;
+  margin-left: 185px;
+}
+
+.name {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.role {
+  color: #fa692e;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.name i:hover {
+  color: #fa692e;
+  cursor: pointer;
+}
+
+.special-events {
+  height: 650px;
+  background-color: #3c3f49;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.event {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  padding-top: 150px;
+  border: 1px solid #fff;
+  position: relative;
+  top: 50px;
+}
+
+.event h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.event p {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.event input {
+  margin-right: 30px;
+  background-color: transparent;
+  text-transform: capitalize;
+  border: transparent;
+  border-bottom: 5px solid #fa692e;
+}
+
+.event input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.event button {
+  background-color: #fa692e;
+  color: #fff;
+  border: transparent;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.event button:hover {
+  cursor: pointer;
+  background-color: #333333;
+}
+
+footer {
+  background-color: #333;
+  margin-top: -16px;
+  height: 105px;
+}
+
+.rights {
+  float: right;
+  opacity: 0.6;
+  color: #fff;
+  text-transform: uppercase;
+  width: 300px;
+  position: relative;
+  bottom: 10px;
+}
+
+.codemesh {
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 30px;
+  width: 150px;
+  position: relative;
+  top: 40px;
+}
