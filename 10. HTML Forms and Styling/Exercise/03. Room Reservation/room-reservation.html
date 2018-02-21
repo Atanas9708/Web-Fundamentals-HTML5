@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="room-reservation.css">
+  <title>Room Reservation</title>
+</head>
+
+<body>
+
+  <nav>
+    <h1>Room Reservation</h1>
+  </nav>
+
+  <section class="info">
+    <h2>Basic Information</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit.
+      Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.
+    </p>
+
+    <div class="search">
+      <label for="search">Search</label>
+      <div>
+        <input type="text" id="search">
+        <i class="fa fa-search"></i>
+      </div>
+    </div>
+  </section>
+
+  <form action="POST">
+    <div class="details">
+      <h2>Personal Details</h2>
+
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Laste Name">
+      <input type="text" placeholder="Enter email">
+    </div>
+
+    <div class="reservation">
+      <h2>Request a reservation</h2>
+
+      <label for="room">
+        Select a Room
+        <select id="room">
+          <option value="">Room 1</option>
+          <option value="">Room 2</option>
+          <option value="">Room 3</option>
+          <option value="">Room 4</option>
+        </select>
+      </label>
+
+      <label for="number">
+        Number of Rooms
+        <input type="number" value="1" id="number">
+      </label>
+
+      <label for="check-in">
+        Check-In:
+        <input type="date">
+      </label>
+
+      <label for="check-out">
+        Check-Out:
+        <input type="date">
+      </label>
+    </div>
+
+    <input type="submit" value="book now">
+  </form>
+
+</body>
+
+</html>

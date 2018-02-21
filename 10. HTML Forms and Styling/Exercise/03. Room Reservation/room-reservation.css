@@ -1,0 +1,131 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  width: 1200px;
+  margin: auto;
+  font-family: Tahoma, Helvetica, sans-serif;
+  background-color: #EBEBEB;
+}
+
+nav {
+  background-color: #F1F1F1;
+  line-height: 80px;
+}
+
+h1 {
+  color: #34A1E5;
+  font-size: 28px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.info p {
+  width: 900px;
+}
+
+.info {
+  border-bottom: 3px dashed #E4E4E4;
+}
+
+.info::after {
+  clear: left;
+  display: block;
+  content: '';
+}
+
+.search {
+  float: right;
+  position: relative;
+  bottom: 70px;
+}
+
+.search label {
+  font-weight: bold;
+}
+
+.search i {
+  position: relative;
+  right: 30px;
+  top: 3px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#search {
+  line-height: 22px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.details {
+  width: 300px;
+  display: inline-block;
+}
+
+.details input {
+  width: 200px;
+  margin-bottom: 10px;
+  line-height: 22px;
+  padding-left: 5px;
+  display: block;
+}
+
+.reservation {
+  width: 500px;
+  position: relative;
+  left: 375px;
+  display: inline-block;
+}
+
+.reservation label {
+  display: inline-block;
+}
+
+.reservation input,
+.reservation select {
+  height: 22px;
+}
+
+.reservation label[for=room] {
+  width: 60%;
+}
+
+.reservation label input,
+.reservation label select{
+  width: 100%;
+}
+
+.reservation label[for=number] {
+  width: 38%;
+}
+
+.reservation label[for=check-in],
+.reservation label[for=check-out] {
+    width: 49%;
+}
+
+input[type="submit"] {
+  position: relative;
+  left: 224px;
+  top: 70px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #34A1E5;
+  padding: 10px;
+  width: 150px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #3BBC96;
+  cursor: pointer;
+}
+
+
+
