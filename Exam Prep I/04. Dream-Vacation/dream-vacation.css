@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900 ');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/background.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 200px;
+  margin-bottom: 0;
+  font-size: 42px;
+}
+
+header p {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+ul {
+  display: flex;
+  float: right;
+  padding-right: 70px;
+}
+
+nav > img {
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+main {
+  background-color: #F5F5F5;
+}
+
+.offers {
+  width: 80%;
+  margin: auto;
+}
+
+.offers h1 {
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.offers p {
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.offers article {
+  display: inline-block;
+  width: 320px;
+  margin-left: 28px;
+  margin-bottom: 25px;
+  height: 320px;
+  background-color: #fff;
+}
+
+.offers > article img {
+  width: 320px;
+}
+
+.country {
+  float: left;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.price {
+  float: right;
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+}
+
+.customers {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.customers article {
+  width: 380px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.customers img {
+  border-radius: 50%;
+}
+
+.user {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.review {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.customers h1 {
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+.customers > p {
+  opacity: 0.7;
+  padding-bottom: 50px;
+}
+
+.support {
+  float: right;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.copyrights {
+  float: left;
+  padding-left: 60px;
+  opacity: 0.5;
+}
+
+footer li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  opacity: 0.5;
+  color: black; 
+}
