@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.left {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(120, 0, 77, 0.7)), url('img/peak.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 40%;
+  height: 600px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 4px solid #78004D;
+}
+
+.right {
+  border-top: 4px solid #78004D;
+  border-right: 4px solid #78004D;
+  border-bottom: 4px solid #78004D;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 592px;
+  width: 59%;
+  float: right
+}
+
+form {
+  width: 895px;
+  height: 600px;
+  margin: auto;
+}
+
+.form {
+  height: 320px;
+  padding-top: 120px;
+}
+
+.left h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.left p {
+  margin-top: 350px;
+  text-align: center;
+  color: #fff;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.fa {
+  left: 170px;
+  position: relative;
+  color: #fff;
+  font-size: 30px;
+}
+
+.right div,
+.right label {
+  width: 70%;
+  padding-left: 120px;
+}
+
+.right > div > label {
+  padding-top: 100px;
+}
+
+input:not([type="submit"]) {
+  width: 75%;
+  border: transparent;
+  border-bottom: 2px solid #B09389;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: #B09389;
+}
+
+label {
+  opacity: 0.3;
+  font-size: 15px;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  background-color: #892064;
+  color: #fff;
+  width: 140px;
+  padding: 12px;
+  border: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+span {
+  margin-right: 3px;
+}
+
+.submit a {
+  color: #892064;;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.right > .fa {
+  color: #892064;
+  position: relative;
+  left: 480px;
+  top: 15px;
+}
